@@ -8,7 +8,7 @@ class Cell extends Component {
         }
     }
 
-    function changeColor {
+    function changeColor = () => {
         this.setState({color: "#333"})
     }
 
